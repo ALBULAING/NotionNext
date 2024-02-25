@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到阿凉的杂货铺', url: 'miftahfar.eu.org' },
-    { title: '访问资源中心获取更多资源', url: 'https://docs.tangly1024.com' }
+    { title: '访问资源中心获取资源合集', url: 'https://docs.tangly1024.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
