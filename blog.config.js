@@ -18,7 +18,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.note.cc.ua', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '阿凉, 资源库', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://p3-sign.toutiaoimg.com/tos-cn-i-eyfl5e3fp8/06000314bbb442aa957c1b8341b38b08~tplv-obj.image?lk3s=993df49e&traceid=202406112232080CA94B4FDFD59CB5DFD1&x-expires=2147483647&x-signature=wba9jY38UB81dZy7jSZO2vOQr4A%3D', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://ooo.0x0.ooo/2025/01/22/OGhQ7v.jpg', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
@@ -46,7 +46,7 @@ const BLOG = {
   ...require('./conf/dev.config'), // 开发、调试时需要关注的配置
 
   // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: ['https://embed.tawk.to/6789c34e825083258e06a3cb/1ihp25rv2'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
   // 自定义菜单
